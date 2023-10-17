@@ -1,7 +1,6 @@
 const gridContainer = document.getElementById("gridContainer");
 
-for (let i = 0; i < 16; i++) {
-    for (let j = 0; j < 18; j++) {
+for (let i = 0; i < 16 * 16; i++) {
 
         const gridItem = document.createElement("div");
         gridItem.classList.add("grid-item");
@@ -10,7 +9,7 @@ for (let i = 0; i < 16; i++) {
             gridItem.style.backgroundColor = getRandomColor();
         });
         gridContainer.appendChild(gridItem);
-    }
+    
 }
 
 
