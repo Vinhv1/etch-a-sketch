@@ -1,12 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-    width: 400px; /* Adjust the width of the grid as needed */
+    width: 320px; /* Adjust the width to fit your layout */
 }
 
 .grid-item {
-    width: calc(25% - 1px); /* Adjust the width and border spacing as needed */
-    padding-bottom: calc(25% - 1px); /* Maintain square aspect ratio */
-    background-color: white; /* Set the initial background color */
-    border: 1px solid #333; /* Add a border for separation */
+    width: 16px;
+    height: 16px;
+    border: 1px solid #000;
 }
